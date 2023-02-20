@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start-database": "cd server && redis-server",
+    "start-frontend": "cd client && npm run serve",
+    "start-backend": "cd server && npm start",
+    "start": "concurrently \"npm run start-database\" \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "dependencies": {
+    "express-graphql": "^0.12.0",
+    "vue": "^3.2.36"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5"
+  }
+}

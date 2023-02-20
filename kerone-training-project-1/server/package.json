@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "NODE_ENV=production ts-node ./index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-browser": "^2.32.2",
+    "@azure/msal-node": "^1.15.0",
+    "@microsoft/microsoft-graph-client": "^3.0.4",
+    "apollo-server": "^3.11.1",
+    "apollo-server-express": "^3.11.1",
+    "axios": "^1.3.2",
+    "cors": "^2.8.5",
+    "daypilot-pro-vue": "https://npm.daypilot.org/daypilot-pro-vue/trial/2023.1.5508.tar.gz",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "graphql": "^16.6.0",
+    "http-proxy-middleware": "^2.0.6",
+    "open": "^8.4.0",
+    "opn": "^6.0.0",
+    "redis": "^4.6.4",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@types/express-session": "^1.17.5",
+    "@types/http-errors": "^2.0.1",
+    "nodemon": "^2.0.20",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.5"
+  }
+}
